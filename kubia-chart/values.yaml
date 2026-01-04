@@ -1,0 +1,9 @@
+replicaCount: 3
+
+image:
+  repository: mikhailvzhzhv/kubia
+  tag: "v2"
+
+service:
+  port: 80
+  targetPort: 8080

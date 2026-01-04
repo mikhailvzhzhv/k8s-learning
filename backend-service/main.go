@@ -20,6 +20,7 @@ func main() {
 		c.JSON(http.StatusOK, gin.H{
 			"message":  "pong",
 			"hostname": hostname,
+			"version":  "v2",
 		})
 	})
 
